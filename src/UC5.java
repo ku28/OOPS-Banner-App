@@ -15,31 +15,37 @@ public class UC5 {
     public static HashMap<Character, String[]> createCharacterMap(){
         HashMap<Character, String[]> charMap = new HashMap<>();
         charMap.put('O',  new String[]{
-                " ***  ",
-                "*   * ",
-                "*   * ",
-                "*   * ",
-                "*   * ",
-                "*   * ",
-                " ***  "
+                "   ***   ",
+                " **   ** ",
+                "**     **",
+                "**     **",
+                "**     **",
+                "**     **",
+                "**     **",
+                " **   ** ",
+                "   ***   "
         });
         charMap.put('P',  new String[]{
-                "****  ",
-                "*   * ",
-                "*   * ",
-                "****  ",
-                "*     ",
-                "*     ",
-                "*     "
+                "******   ",
+                "**    ** ",
+                "**     **",
+                "**    ** ",
+                "******   ",
+                "**       ",
+                "**       ",
+                "**       ",
+                "**       "
         });
         charMap.put('S',  new String[]{
-                " **** ",
-                "*     ",
-                "*     ",
-                " **** ",
-                "     *",
-                "     *",
-                " **** "
+                "   ***** ",
+                " **      ",
+                "**       ",
+                " **      ",
+                "   ***   ",
+                "      ** ",
+                "       **",
+                "      ** ",
+                " *****   "
         });
         return charMap;
     }

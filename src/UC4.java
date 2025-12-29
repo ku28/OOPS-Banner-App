@@ -26,40 +26,46 @@ public class UC4 {
     public static CharacterPatternMap[] createCharacterPatternMap(){
         return new CharacterPatternMap[]{
                 new CharacterPatternMap('O', new String[]{
-                        " ***  ",
-                        "*   * ",
-                        "*   * ",
-                        "*   * ",
-                        "*   * ",
-                        "*   * ",
-                        " ***  "
+                        "   ***   ",
+                        " **   ** ",
+                        "**     **",
+                        "**     **",
+                        "**     **",
+                        "**     **",
+                        "**     **",
+                        " **   ** ",
+                        "   ***   "
                 }),
                 new CharacterPatternMap('P', new String[]{
-                        "****  ",
-                        "*   * ",
-                        "*   * ",
-                        "****  ",
-                        "*     ",
-                        "*     ",
-                        "*     "
+                        "******   ",
+                        "**    ** ",
+                        "**     **",
+                        "**    ** ",
+                        "******   ",
+                        "**       ",
+                        "**       ",
+                        "**       ",
+                        "**       "
                 }),
                 new CharacterPatternMap('S', new String[]{
-                        " **** ",
-                        "*     ",
-                        "*     ",
-                        " **** ",
-                        "     *",
-                        "     *",
-                        " **** "
+                        "   ***** ",
+                        " **      ",
+                        "**       ",
+                        " **      ",
+                        "   ***   ",
+                        "      ** ",
+                        "       **",
+                        "      ** ",
+                        " *****   "
                 }),
                 new CharacterPatternMap(' ', new String[]{
-                        "      ",
-                        "      ",
-                        "      ",
-                        "      ",
-                        "      ",
-                        "      ",
-                        "      "
+                        "         ",
+                        "         ",
+                        "         ",
+                        "         ",
+                        "         ",
+                        "         ",
+                        "         "
                 })
         };
     }
