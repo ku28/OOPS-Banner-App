@@ -3,7 +3,7 @@
  *
  *  This class demonstrates advanced Object-Oriented Programming concepts through the
  *  creation and display of an ASCII art banner. It extends the functionality of Use Case 4
- *  by implementing a modular, reusable character pattern system using the Collections Framework.
+ *  by implementing a modular, reusable character pattern system using the Collections Framework
  *
  * @author Kushagra
  * @version 5.0
