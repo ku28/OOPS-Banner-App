@@ -4,8 +4,8 @@
  * This class extends User Story 2 to display the "OOPS" banner using a modular approach
  * by implementing the Single Responsibility Principle (SRP) and Method Extraction.
  *
- * <p><b>Pattern:</b> String arrays representing ASCII art for letters O, P, and S are generated
- * and combined horizontally to create the visual "OOPS" message.</p>
+ * Pattern: String arrays representing ASCII art for letters O, P, and S are generated
+ * and combined horizontally to create the visual "OOPS" message.
  *
  * @author Kushagra
  * @version 3.0
